@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>CFBundleAllowMixedLocalizations</key>
-        <true/>
-        <key>CFBundlePackageType</key>
-        <string>ABlindLegend</string>
-        <key>CFBundleInfoDictionaryVersion</key>
-        <string>6.0</string>
-        <key>LSMinimumSystemVersion</key>
-        <string>10.6</string>
-        <key>CFBundleIdentifier</key>
-        <string>com.dowino.mac.ABlindLegend</string>
-        <key>LSApplicationCategoryType</key>
-        <string>public.app-category.adventure-games</string>
-        <key>CFBundleGetInfoString</key>
-        <string>1.0,</string>
-        <key>CFBundleShortVersionString</key>
-        <string>1.0</string>
-        <key>NSHumanReadableCopyright</key>
-        <string/>
-        <key>CFBundleExecutable</key>
-        <string>ABlindLegend</string>
-        <key>NSHighResolutionCapable</key>
-        <false/>
-        <key>CFBundleIconFile</key>
-        <string>Icon.icns</string>
-        <key>CFBundleLocalizations</key>
-        <array>
-            <string>en</string>
-            <string>fr</string>
-        </array>
-    </dict>
+<dict>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true/>
+    <key>CFBundleExecutable</key>
+    <string>ABlindLegend</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.dowino.mac.ABlindLegend</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>A Blind Legend</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.adventure-games</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>(c) 2016 Da Viking Code. All rights reserved.</string>
+    <key>NSHighResolutionCapable</key>
+    <false/>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>PlayerApplication</string>
+    <key>CFBundleIconFile</key>
+    <string>Icon.icns</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>fr</string>
+    </array>
+</dict>
 </plist>
