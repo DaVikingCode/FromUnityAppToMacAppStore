@@ -29,7 +29,7 @@
     <key>NSPrincipalClass</key>
     <string>PlayerApplication</string>
     <key>CFBundleIconFile</key>
-    <string>Icon.icns</string>
+    <string>PlayerIcon.icns</string>
     <key>CFBundleLocalizations</key>
     <array>
         <string>en</string>

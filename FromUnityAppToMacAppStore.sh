@@ -5,7 +5,7 @@
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
 cp $DIR/Info.plist $DIR/"$1".app/Contents
-cp $DIR/Icon.icns $DIR/"$1".app/Contents/Resources
+cp $DIR/PlayerIcon.icns $DIR/"$1".app/Contents/Resources
 
 chmod -R 777 $DIR/"$1".app/
 
@@ -19,4 +19,4 @@ codesign -v --verify $DIR/"$1".app
 
 exit 0
 
-#sh FromUnityToMacAppStore.sh "ABlindLegend" "3rd Party Mac Developer Application: DaVikingCode (XXXXXXXXX)" "3rd Party Mac Developer Installer: DaVikingCode (XXXXXXXXX)
+#sh FromUnityAppToMacAppStore.sh "ABlindLegend" "3rd Party Mac Developer Application: DaVikingCode (XXXXXXXXX)" "3rd Party Mac Developer Installer: DaVikingCode (XXXXXXXXX)
