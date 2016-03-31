@@ -19,4 +19,4 @@ codesign -v --verify $DIR/"$1".app
 
 exit 0
 
-#sh FromUnityAppToMacAppStore.sh "ABlindLegend" "3rd Party Mac Developer Application: DaVikingCode (XXXXXXXXX)" "3rd Party Mac Developer Installer: DaVikingCode (XXXXXXXXX)
+#sh FromUnityAppToMacAppStore.sh "ABlindLegend" "3rd Party Mac Developer Application: DaVikingCode (XXXXXXXXX)" "3rd Party Mac Developer Installer: DaVikingCode (XXXXXXXXX)"
